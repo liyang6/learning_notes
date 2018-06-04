@@ -1,0 +1,19 @@
+select 文本多行展示css方法：（定宽，不定高）
+select {
+
+	min-height: 40px;
+	line-height: 140%;
+	padding-right:20px;
+	
+	width: 100%;
+	white-space: normal;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+option {
+	white-space: normal;
+	word-break: break-all;
+	word-wrap: break-word;
+}

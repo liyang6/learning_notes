@@ -1,0 +1,8 @@
+Input或者textarea在设置了disable之后在安卓手机上显示正常，但ios系统手机上就会显示背景为半透明，字体颜色为灰色。
+
+textarea[disabled] {
+    -webkit-text-fill-color: #000;
+    -webkit-opacity: 1;
+	opacity: 1;
+    color: #000;
+}

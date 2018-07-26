@@ -1,0 +1,14 @@
+npm安装模块报错
+
+命令---> npm install --save-dev gulp-uglify
+报错如下：
+npm ERR! Unexpected end of JSON input while parsing near '...~5.5.3","semver":"~5.'
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\RSDZB-DZ-00156\AppData\Roaming\npm-cache\_logs\2018-07-26T12_59_44_975Z-debug.log
+
+
+解决办法：
+
+npm install --registry=https://registry.npm.taobao.org --loglevel=silly:
+
+npm cache clean --force

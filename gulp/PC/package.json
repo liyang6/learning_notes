@@ -1,0 +1,30 @@
+{
+  "name": "pc2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "changeTem.js",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^3.0.0",
+    "glob2base": "0.0.12",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-connect": "^5.5.0",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sequence": "^1.0.0",
+    "gulp-uglify": "^3.0.1",
+    "http-proxy-middleware": "^0.18.0",
+    "rimraf": "^2.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "author": "",
+  "license": "ISC"
+}
